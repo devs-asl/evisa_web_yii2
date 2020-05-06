@@ -1,0 +1,92 @@
+.bd-map-container {
+	width:100%;
+	max-width: 586px;
+	
+	margin: auto;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	height: auto;
+}
+
+img {
+	display: block;
+	line-height: 0;
+}
+
+.bd-map-svg-area {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.bd-map-svg {
+	width: 100%;
+	display: block;
+	line-height: 0;
+}
+
+
+
+.bd-map-svg .st0 {
+	fill: transparent !important;
+	cursor: pointer;
+}
+
+.bd-map-svg .st0:hover {
+	fill: blue;
+}
+
+.bd-map-sprite-area {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -2;
+}
+
+.bd-map-sprite {
+	height: 100%;
+}
+
+.bd-map-sprite.sprite-img {
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+
+.bd-map-sprite.khu {
+	left: -100%;
+}
+
+.bd-map-sprite.raj {
+	left: -200%;
+}
+
+.bd-map-sprite.ran {
+	left: -300%;
+}
+
+.bd-map-sprite.syl {
+	left: -400%;
+}
+
+.bd-map-sprite.ctg {
+	left: -500%;
+}
+
+.bd-map-sprite.bar {
+	left: -600%;
+}
+
+.bd-map-sprite.dha {
+	left: -700%;
+}
+
+.bd-map-sprite.mym {
+	left: -800%;
+}

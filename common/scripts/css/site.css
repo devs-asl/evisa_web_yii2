@@ -1,0 +1,22 @@
+.m-login__logo img {
+    width: 150px!important;
+    max-width: none !important;
+}
+
+.fade:not(.show) {
+    opacity: 1!important;
+}
+
+.alert .close:before{
+    content: ''!important;
+}
+
+.alert .close{
+    padding-top: 0.15rem!important;
+}
+
+
+.help-block {
+    color: red!important;
+}
+
