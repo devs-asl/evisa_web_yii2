@@ -92,7 +92,8 @@ class SiteController extends Controller
 
         if($registration->load(Yii::$app->request->post()) && $registration->signup())
         {
-            Yii::$app->session->setFlash("success", "Thank You for registration.");
+            Yii::$app->session->setFlash("success", "Thank You.
+            An email has been sent to your inbox please verify.");
             Url::to('/');
         }
 
