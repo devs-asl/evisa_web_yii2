@@ -121,12 +121,19 @@ class User extends ActiveRecord implements IdentityInterface
         ];
     }
 
+    const STATUS_ACTIVE = 'Active';
+
     /**
      * {@inheritdoc}
      */
     public static function findIdentity($id)
     {
         return static::findOne(['id' => $id, 'status' => self::STATUS_ACTIVE]);
+    }
+
+    public static function findByEmail($email)
+    {
+        return static::findOne(['email' => $email, 'status' => self::STATUS_ACTIVE]);
     }
 
     /**

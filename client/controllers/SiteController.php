@@ -1,6 +1,7 @@
 <?php
 namespace client\controllers;
 
+use common\models\LoginForm;
 use client\models\SignupForm;
 use common\helpers\UserHelpers;
 use Yii;
@@ -29,7 +30,12 @@ class SiteController extends Controller
                         'allow' => true,
                     ],
                     [
-                        'actions' => ['index','registration','verify-email'],
+                        'actions' => ['index','logout'],
+                        'allow' => true,
+                        'roles' => ['@'],
+                    ],
+                    [
+                        'actions' => ['index','registration','verify-email','login','logout'],
                         'allow' => true,
                         'roles' => ['?'],
                     ],
@@ -37,9 +43,9 @@ class SiteController extends Controller
             ],
             'verbs' => [
                 'class' => VerbFilter::className(),
-                'actions' => [
-                    'logout' => ['post'],
-                ],
+//                'actions' => [
+//                    'logout' => ['post'],
+//                ],
             ],
         ];
     }
@@ -104,6 +110,26 @@ class SiteController extends Controller
         ]);
     }
 
+    public function actionLogin()
+    {
+        if (!Yii::$app->user->isGuest) {
+            return UserHelpers::redirectToLoggedInUsersMod();
+        }
+
+        $login = new LoginForm();
+        if($login->load(Yii::$app->request->post()) && $login->login())
+        {
+//            return Yii::$app->response->redirect(Url::to('/user'));
+            return $this->goBack();
+        }
+
+        $this->layout = 'auth-main';
+        $login->password = '';
+        return $this->render('login', [
+            'login' => $login
+        ]);
+    }
+
     public function actionVerifyEmail()
     {
         $token = $_GET['token'];
@@ -146,6 +172,6 @@ class SiteController extends Controller
     public function actionLogout()
     {
         Yii::$app->user->logout();
-        return UrlHelpers::redirectToAuthUrl();
+        return $this->goHome();
     }
 }

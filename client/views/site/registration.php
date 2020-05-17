@@ -14,8 +14,8 @@ $this->title = 'e-Visa | Bangladesh | Registration';
 <div class="m-grid__item   m-grid__item--order-tablet-and-mobile-2  m-grid m-grid--hor m-login__aside " style="background-image: url(<?= UrlHelpers::url('images/bg-4.jpg') ?>);">
     <div class="m-grid__item">
         <div class="m-login__logo">
-            <a href="#">
-                <img src="<?= UrlHelpers::url('images/header/logo.png') ?>">
+            <a href="<?php  ?>">
+                <img src="<?= UrlHelpers::url('images/logo/eVISA-logo.png') ?>">
             </a>
         </div>
     </div>
@@ -40,13 +40,8 @@ $this->title = 'e-Visa | Bangladesh | Registration';
 </div>
 <div class="m-grid__item m-grid__item--fluid  m-grid__item--order-tablet-and-mobile-1  m-login__wrapper">
 
-    <!--begin::Head-->
-<!--    <div class="m-login__head">-->
-<!--        <span>Don't have an account?</span>-->
-<!--        <a href="#" class="m-link m--font-danger">Sign Up</a>-->
-<!--    </div>-->
+    <h3>Registration</h3>
 
-    <!--end::Head-->
     <?= Alert::widget() ?>
 
     <!--begin::Body-->

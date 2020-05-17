@@ -20,7 +20,7 @@ return [
 //            'cookieValidationKey' => 'wNYLL2eYAxIYjJuQF447K0aT-TZ52ulXs'
         ],
         'user' => [
-            'identityClass' => 'common\models\User',
+            'identityClass' => 'common\models\db\User',
             'enableAutoLogin' => true,
             'identityCookie' => ['name' => '_identity-auth', 'httpOnly' => true],
         ],

@@ -12,7 +12,7 @@ class UrlHelpers
     {
         if($absolute)
         {
-            return Yii::$app->urlManager->createAbsoluteUrl();
+            return Yii::$app->urlManager->createAbsoluteUrl($path);
         }
 
         return Yii::$app->urlManager->createUrl($path);

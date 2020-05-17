@@ -4,7 +4,12 @@
 namespace client\widgets;
 
 
-class EvisaForm
-{
+use yii\base\Widget;
 
+class EvisaForm extends Widget
+{
+    public function run()
+    {
+        return $this->render('evisa-form');
+    }
 }
