@@ -21,7 +21,7 @@ use yii\helpers\Url;
                       <li class="mega-menu  ">  <a href="<?= \common\helpers\UrlHelpers::url('/') ?>">Home</a> </li>
                       <li> <a href="#">Services</a> </li>
                       <li> <a href="#">About</a> </li>
-                      <li class="mega-menu  >" > <a href="contact.php ">Contact</a> </li>
+                      <li class="mega-menu  >" > <a href="#">Contact</a> </li>
                         <?php if(Yii::$app->user->isGuest) { ?>
                         <li class="mega-menu  >" > <a href="site/registration">Registration</a> </li>
                         <li class="mega-menu  >" > <a href="site/login">Login</a> </li>
