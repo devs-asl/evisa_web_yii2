@@ -3,6 +3,8 @@
 /* @var $form yii\bootstrap\ActiveForm */
 /* @var $model \client\models\RegistrationForm */
 
+
+use yii\helpers\Url;
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use common\helpers\UrlHelpers;
@@ -14,7 +16,7 @@ $this->title = 'e-Visa | Bangladesh | Registration';
 <div class="m-grid__item   m-grid__item--order-tablet-and-mobile-2  m-grid m-grid--hor m-login__aside " style="background-image: url(<?= UrlHelpers::url('images/bg-4.jpg') ?>);">
     <div class="m-grid__item">
         <div class="m-login__logo">
-            <a href="<?php  ?>">
+            <a href="<?php echo Url::home(true) ?>">
                 <img src="<?= UrlHelpers::url('images/logo/eVISA-logo.png') ?>">
             </a>
         </div>

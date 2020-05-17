@@ -16,7 +16,7 @@ $this->title = 'e-Visa | Bangladesh | Login';
 <div class="m-grid__item   m-grid__item--order-tablet-and-mobile-2  m-grid m-grid--hor m-login__aside " style="background-image: url(<?= UrlHelpers::url('images/bg-4.jpg') ?>);">
     <div class="m-grid__item">
         <div class="m-login__logo">
-            <a href="<?php \common\helpers\UrlHelpers::url('/') ?>">
+            <a href="<?php echo Url::home(true) ?>">
                 <img src="<?= UrlHelpers::url('images/logo/eVISA-logo.png') ?>">
             </a>
         </div>

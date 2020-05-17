@@ -8,7 +8,7 @@ use yii\helpers\Url;
         <div class="container">
           <div class="mod-menu">
             <div class="row">
-              <div class="col-sm-2"> <a href="<?php \common\helpers\UrlHelpers::url('/') ?>" title="" class="logo style-2 mar-4"> <img src="images/logo/eVISA-logo.png" alt=""> </a> </div>
+              <div class="col-sm-2"> <a href="<?php echo Url::home(true) ?>" title="" class="logo style-2 mar-4"> <img src="images/logo/eVISA-logo.png" alt=""> </a> </div>
               <div class="col-sm-10">
                 <div class="main-nav">
                   <ul class="nav navbar-nav top-nav">
