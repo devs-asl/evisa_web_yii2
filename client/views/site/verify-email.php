@@ -1,10 +1,10 @@
 <?php
 
-
+use yii\helpers\Url;
 ?>
 
 <div>
    <h3> <?= $message;  ?></h3>
 
-    <a href="<?php \common\helpers\UrlHelpers::url('site/index'); ?>">Go Home</a>
+    <a href="<?php echo Url::home(true) ?>">Go Home</a>
 </div>
