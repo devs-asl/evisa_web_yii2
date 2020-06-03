@@ -3,6 +3,8 @@
     max-width: none !important;
 }
 
+.m-login.m-login--6 .m-login__wrapper{padding:3rem 11rem!important;}
+
 .fade:not(.show) {
     opacity: 1!important;
 }
