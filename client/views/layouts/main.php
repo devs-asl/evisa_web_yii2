@@ -89,6 +89,7 @@ AppAsset::register($this);
 
 
             <?= FooterText::widget(); ?>
+
             <div class="clearfix"></div>
 
             <?= FooterNew::widget(); ?>
@@ -104,9 +105,7 @@ AppAsset::register($this);
 
             <!-- Template scripts -->
             <script src="js/megamenu/js/main.js"></script>
-            <script type="text/javascript" src="js/ytplayer/jquery.mb.YTPlayer.js"></script>
-            <script type="text/javascript" src="js/ytplayer/elementvideo-custom.js"></script>
-            <script type="text/javascript" src="js/ytplayer/play-pause-btn.js"></script>
+
             <!-- REVOLUTION JS FILES -->
             <script type="text/javascript" src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
             <script type="text/javascript" src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
@@ -115,13 +114,6 @@ AppAsset::register($this);
             The following part can be removed on Server for On Demand Loading) -->
             <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
             <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
-            <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
-            <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
-            <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
-            <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
-            <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
-            <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
-            <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
             <script type="text/javascript">
                 var tpj=jQuery;
                 var revapi4;
@@ -269,23 +261,8 @@ AppAsset::register($this);
                 })
 
             </script>
-            <script src="js/parallax/parallax-background.min.js"></script>
-            <script>
-                (function ($) {
-                    $('.parallax').parallaxBackground();
-                })(jQuery);
-            </script>
-            <script type="text/javascript" src="js/cform/form-validate.js"></script>
-
-
 
             <script>
-                $(window).load(function(){
-                    setTimeout(function(){
-
-                        $('.loader-live').fadeOut();
-                    },1000);
-                })
 
             //    evisa form next button code
                 $(".btn").click(function(){
@@ -297,17 +274,6 @@ AppAsset::register($this);
 
             </script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-            <script src="js/tabs/js/responsive-tabs.min.js" type="text/javascript"></script>
-            <script type="text/javascript" src="js/cubeportfolio/jquery.cubeportfolio.min.js"></script>
-            <script type="text/javascript" src="js/cubeportfolio/main-mosaic3-cols3.js"></script>
-            <script src="js/accordion/js/smk-accordion.js"></script>
-            <script src="js/accordion/js/custom.js"></script>
-            <script src="js/progress-circle/raphael-min.js"></script>
-            <script src="js/progress-circle/custom.js"></script>
-            <script src="js/progress-circle/jQuery.circleProgressBar.js"></script>
-            <script src="js/functions/functions.js"></script>
-            <script type="text/javascript" src="js/cubeportfolio/slider-projects.js"></script>
-
             <script type="text/javascript" src="bd_map_svg\svg.js"></script>
             <script type="text/javascript" src="bd_map_svg\scripts.js"></script>
 

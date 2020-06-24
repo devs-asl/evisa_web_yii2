@@ -9,7 +9,7 @@
             <div class="content item">
 
                 <div class="content-overlay"></div>
-                <img class="content-image" src="images/dhaka.jpg">
+                <img class="content-image" src="images/undermap_slider/image-1.jpg">
                 <div class="content-details fadeIn-bottom">
                     <h3 class="content-title">Dhaka City</h3>
                     <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
@@ -20,7 +20,7 @@
             <div class="content item">
 
                 <div class="content-overlay"></div>
-                <img class="content-image" src="images/khulna.jpg">
+                <img class="content-image" src="images/undermap_slider/image-2.jpg">
                 <div class="content-details fadeIn-bottom">
                     <h3 class="content-title">Dhaka City</h3>
                     <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
@@ -31,7 +31,7 @@
             <div class="content item">
 
                 <div class="content-overlay"></div>
-                <img class="content-image" src="images/coxs-bazar.jpg">
+                <img class="content-image" src="images/undermap_slider/image-3.jpg">
                 <div class="content-details fadeIn-bottom">
                     <h3 class="content-title">Dhaka City</h3>
                     <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
@@ -42,7 +42,7 @@
             <div class="content item">
 
                 <div class="content-overlay"></div>
-                <img class="content-image" src="images/khulna1.jpg">
+                <img class="content-image" src="images/undermap_slider/image-4.jpg">
                 <div class="content-details fadeIn-bottom">
                     <h3 class="content-title">Dhaka City</h3>
                     <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
@@ -53,7 +53,7 @@
             <div class="content item">
 
                 <div class="content-overlay"></div>
-                <img class="content-image" src="images/dhaka.jpg">
+                <img class="content-image" src="images/undermap_slider/image-5.jpg">
                 <div class="content-details fadeIn-bottom">
                     <h3 class="content-title">Dhaka City</h3>
                     <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
@@ -64,7 +64,7 @@
             <div class="content item">
 
                 <div class="content-overlay"></div>
-                <img class="content-image" src="images/khulna.jpg">
+                <img class="content-image" src="images/undermap_slider/image-6.jpg">
                 <div class="content-details fadeIn-bottom">
                     <h3 class="content-title">Dhaka City</h3>
                     <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
@@ -75,7 +75,7 @@
             <div class="content item">
 
                 <div class="content-overlay"></div>
-                <img class="content-image" src="images/coxs-bazar.jpg">
+                <img class="content-image" src="images/undermap_slider/image-7.jpg">
                 <div class="content-details fadeIn-bottom">
                     <h3 class="content-title">Dhaka City</h3>
                     <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
@@ -86,7 +86,48 @@
             <div class="content item">
 
                 <div class="content-overlay"></div>
-                <img class="content-image" src="images/khulna1.jpg">
+                <img class="content-image" src="images/undermap_slider/image-8.jpg">
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Dhaka City</h3>
+                    <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+                </div>
+
+            </div>
+
+            <div class="content item">
+
+                <div class="content-overlay"></div>
+                <img class="content-image" src="images/undermap_slider/image-9.jpg">
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Dhaka City</h3>
+                    <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+                </div>
+
+            </div>
+            <div class="content item">
+
+                <div class="content-overlay"></div>
+                <img class="content-image" src="images/undermap_slider/image-10.jpg">
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Dhaka City</h3>
+                    <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+                </div>
+
+            </div>
+            <div class="content item">
+
+                <div class="content-overlay"></div>
+                <img class="content-image" src="images/undermap_slider/image-11.jpg">
+                <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">Dhaka City</h3>
+                    <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+                </div>
+
+            </div>
+            <div class="content item">
+
+                <div class="content-overlay"></div>
+                <img class="content-image" src="images/undermap_slider/image-12.jpg">
                 <div class="content-details fadeIn-bottom">
                     <h3 class="content-title">Dhaka City</h3>
                     <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>

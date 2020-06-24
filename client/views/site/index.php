@@ -12,16 +12,24 @@ $this->title = 'e-Visa | Bangladesh';
 ?>
 
 <div class="clearfix"></div>
+
 <?= HomeSlider::widget() ?>
+
 <div class="clearfix"></div>
 
 <?= EvisaForm::widget() ?>
 
 <div class="clearfix"></div>
+
 <?= MapDescription::widget(); ?>
+
 <div class="clearfix"></div>
+
 <?= Map::widget(); ?>
+
 <div class=" clearfix"></div>
+
 <?= ImageCarousel::widget(); ?>
+
 <div class="clearfix"></div>
 

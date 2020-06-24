@@ -94,7 +94,7 @@
     cursor: pointer;
     padding:10px 20px;
     margin:0px 2px;
-    background:#000;
+    background:#0a3333cc;
     display:inline-block;
     color:#fff;
     border-radius:3px 3px 0px 0px;
@@ -105,7 +105,7 @@
     border: 1px solid #008000;
     border-top: 0px;
     min-height:200px;
-    width:100%;
+    width:350px;
     max-width:500px;
     border-radius:3px;
     overflow:hidden;
@@ -185,7 +185,7 @@
 
 
 
-
+/* EvisaForm tabs start */
 
 /* desktop */
 @media only screen and (min-width: 992px) {
@@ -204,4 +204,21 @@
 
 }
 
+label#two-tab {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+
 /* EvisaForm tabs ends*/
+
+
+/* custom under map image */
+
+.owl-stage {
+    height: 250px;
+}
+
+.owl-carousel .owl-item img{
+    height: -webkit-fill-available;
+}

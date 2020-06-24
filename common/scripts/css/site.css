@@ -3,7 +3,6 @@
     max-width: none !important;
 }
 
-.m-login.m-login--6 .m-login__wrapper{padding:3rem 11rem!important;}
 
 .fade:not(.show) {
     opacity: 1!important;
@@ -22,3 +21,19 @@
     color: red!important;
 }
 
+
+/* Evisa Auth-main layout css */
+
+@media (min-width: 1024px){
+    .m-login.m-login--6 .m-login__wrapper {
+        padding: 17rem 10rem!important
+    }
+}
+
+
+
+/*@media (max-width: 1024px) {*/
+    /*.m-login.m-login--6 .m-login__wrapper {*/
+        /*padding: 3rem 2rem!important;*/
+    /*}*/
+/*}*/

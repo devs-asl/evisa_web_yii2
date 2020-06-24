@@ -1,11 +1,11 @@
 $(document).ready(function() {
 	$(".bd-map-container").on({ 
 	    mouseenter: function() { 
-	    	let id = $(this).attr("id");
-	    	console.log(id);   	
+	    	var id = $(this).attr("id");
+	    	// console.log(id);
 
 	    	var className = $(this).attr("class");
-	    	console.log(className);
+	    	// console.log(className);
 
 	    	// let className = $(this).attr("class");
 	    	// console.log(className);
@@ -19,11 +19,15 @@ $(document).ready(function() {
 	    } 
 	}, ".st0");
 
-	//$(".st0").on("click", function(){
-		/**/
+	// $(".khu").click(function(){
+	// 	// alert(1);
+     //    $("#bd-map-modal").modal("show");
+	// });
+/*
 	$(".bd-map-container").on("click", ".st0", function(){
 		// alert(1);
 		$("#bd-map-modal").modal("show");
-	});	/**/
+	});
+	*/
 });
 
