@@ -19,7 +19,7 @@ var _self = (typeof window !== 'undefined')
 
 var Prism = (function (_self){
 
-// Private helper varsplugins.bundle.css
+// Private helper vars
 var lang = /\blang(?:uage)?-([\w-]+)\b/i;
 var uniqueId = 0;
 

@@ -79,7 +79,9 @@ AppAsset::register($this);
     <div class="wrapper-boxed">
         <div class="site-wrapper">
 
-            <?= Header::widget() ?>
+            <?php echo $this->render('@app/views/partials/page-header.php') ?>
+
+
 
             <div>
                 <?= $content ?>
@@ -88,11 +90,11 @@ AppAsset::register($this);
 
 
 
-            <?= FooterText::widget(); ?>
+            <?php echo $this->render('@app/views/partials/footer-text.php') ?>
 
             <div class="clearfix"></div>
 
-            <?= FooterNew::widget(); ?>
+            <?php echo $this->render('@app/views/partials/footer-new.php') ?>
 
 
             <script src="js/jquery/jquery.js"></script>

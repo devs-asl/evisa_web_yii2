@@ -2,34 +2,30 @@
 
 /* @var $this yii\web\View */
 
-use client\widgets\HomeSlider;
-use client\widgets\MapDescription;
-use client\widgets\Map;
-use client\widgets\ImageCarousel;
-use client\widgets\EvisaForm;
 
 $this->title = 'e-Visa | Bangladesh';
 ?>
 
 <div class="clearfix"></div>
 
-<?= HomeSlider::widget() ?>
+
+<?php echo $this->render('@app/views/partials/home-slider.php') ?>
 
 <div class="clearfix"></div>
 
-<?= EvisaForm::widget() ?>
+<?php echo $this->render('@app/views/partials/evisa-form.php') ?>
 
 <div class="clearfix"></div>
 
-<?= MapDescription::widget(); ?>
+<?php echo $this->render('@app/views/partials/map-description.php') ?>
 
 <div class="clearfix"></div>
 
-<?= Map::widget(); ?>
+<?php echo $this->render('@app/views/partials/map.php') ?>
 
 <div class=" clearfix"></div>
 
-<?= ImageCarousel::widget(); ?>
+<?php echo $this->render('@app/views/partials/image-carousel.php') ?>
 
 <div class="clearfix"></div>
 
