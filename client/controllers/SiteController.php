@@ -35,7 +35,7 @@ class SiteController extends Controller
                         'roles' => ['@'],
                     ],
                     [
-                        'actions' => ['index','registration','verify-email','login','dashboard'],
+                        'actions' => ['index','registration','verify-email','login','dashboard','application'],
                         'allow' => true,
                         'roles' => ['?'],
                     ],
@@ -165,6 +165,12 @@ class SiteController extends Controller
     {
         $this->layout = 'dashboard-main';
         return $this->render('dashboard');
+    }
+
+    public function actionApplication()
+    {
+        $this->layout = 'dashboard-main';
+        return $this->render('application');
     }
 
 
