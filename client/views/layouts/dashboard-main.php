@@ -3720,6 +3720,9 @@ DefaultDashboardAssetBundle::register($this);
 </div>
 <!--end::Chat Panel-->
 
+
+<?= $content ?>
+
 <!--begin::Scrolltop-->
 <div id="kt_scrolltop" class="scrolltop">
 	<span class="svg-icon"><!--begin::Svg Icon | path:/metronic/themes/metronic/theme/html/demo10/dist/assets/media/svg/icons/Navigation/Up-2.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">

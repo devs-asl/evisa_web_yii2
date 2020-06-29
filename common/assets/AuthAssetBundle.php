@@ -5,7 +5,7 @@ use yii\web\AssetBundle;
 
 class AuthAssetBundle extends AssetBundle
 {
-//    public $sourcePath = '@common/scripts';
+    public $sourcePath = '@common/scripts';
     public $css = [
         'css/site.css',
         'css/vendors.bundle.css',
