@@ -13,29 +13,23 @@ class DefaultDashboardAssetBundle extends AssetBundle
     public $css = [
         //   Theme Plugins
 
-        'css/dashboard-plugins-css/global/plugins.bundle.css',
-        'css/dashboard-plugins-css/custom/prismjs/prism.bundle.css',
+        'css/dashboard/plugins/global/plugins.bundle.css',
+        'css/dashboard/plugins/custom/prismjs/prismjs.bundle.css',
 
         //        GLOBAL style
 
-        'css/dashboard-theme/style.bundle.css',
-        'css/dashboard-plugins-css/custom/fullcalendar.bundle.css',
-//        'css/dashboard-theme/header/base/light.min.css',
-//        'css/dashboard-theme/header/menu/light.min.css',
-//        'css/dashboard-theme/brand/dark.min.css',
-//        'css/dashboard-theme/aside/dark.min.css',
-
-
+        'css/dashboard/theme/style.bundle.css',
+        'css/dashboard/plugins/custom/fullcalendar.bundle.css',
 
     ];
 
     public $js = [
         //        Theme Plugin
-        'js/dashboard-theme/plugins.bundle.js',
-        'js/dashboard-theme/scripts.bundle.js',
-        'js/dashboard-plugins-js/custom/prismjs/prismjs.bundle.js',
-        'js/dashboard-plugins-js/custom/widgets/widgets.min.js',
-        'js/dashboard-plugins-js/custom/fullcalender.bundle.js',
+        'js/dashboard/theme/plugins.bundle.js',
+        'js/dashboard/plugins/custom/prismjs/prismjs.bundle.js',
+        'js/dashboard/theme/scripts.bundle.js',
+        'js/dashboard/plugins/widgets/widgets.min.js',
+        'js/dashboard/plugins/custom/fullcalendar.bundle.js',
     ];
 
 }

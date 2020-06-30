@@ -1,6 +1,7 @@
 <?php
 namespace client\controllers;
 
+use common\helpers\UrlHelpers;
 use common\models\LoginForm;
 use client\models\SignupForm;
 use common\helpers\UserHelpers;
@@ -30,12 +31,12 @@ class SiteController extends Controller
                         'allow' => true,
                     ],
                     [
-                        'actions' => ['index','logout'],
+                        'actions' => ['index','logout','dashboard','application'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
                     [
-                        'actions' => ['index','registration','verify-email','login','dashboard'],
+                        'actions' => ['index','registration','verify-email','login'],
                         'allow' => true,
                         'roles' => ['?'],
                     ],
@@ -119,8 +120,9 @@ class SiteController extends Controller
         $login = new LoginForm();
         if($login->load(Yii::$app->request->post()) && $login->login())
         {
-//            return Yii::$app->response->redirect(Url::to('/user'));
-            return $this->goBack();
+            return Yii::$app->response->redirect(UrlHelpers::url('/site/dashboard'));
+//            return $this->goBack();
+
         }
 
         $this->layout = 'auth-main';
@@ -165,6 +167,12 @@ class SiteController extends Controller
     {
         $this->layout = 'dashboard-main';
         return $this->render('dashboard');
+    }
+
+    public function actionApplication()
+    {
+        $this->layout = 'dashboard-main';
+        return $this->render('application');
     }
 
 

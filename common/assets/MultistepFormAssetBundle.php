@@ -13,12 +13,16 @@ class MultistepFormAssetBundle extends AssetBundle
     public $css = [
         //   Multi Step Form Style
 
-        'css/dashboard-theme/wizard-2.min.css',
+        'css/dashboard/theme/wizard-2.min.css',
+
     ];
 
     public $js = [
         //   Multi Step Form Style
 
-        'js/dashboard-theme/wizard-2.min.js',
+        'js/dashboard/theme/wizard-2.min.js',
+
+        'js/dashboard/theme/bootstrap-datepicker.min.js'
+
     ];
 }
