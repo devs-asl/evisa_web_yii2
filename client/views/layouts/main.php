@@ -79,7 +79,7 @@ AppAsset::register($this);
     <div class="wrapper-boxed">
         <div class="site-wrapper">
 
-            <?php echo $this->render('@app/views/partials/page-header.php') ?>
+            <?php echo $this->render('@app/views/partials/home/page-header.php') ?>
 
 
 
@@ -90,11 +90,11 @@ AppAsset::register($this);
 
 
 
-            <?php echo $this->render('@app/views/partials/footer-text.php') ?>
+            <?php echo $this->render('@app/views/partials/home/footer-text.php') ?>
 
             <div class="clearfix"></div>
 
-            <?php echo $this->render('@app/views/partials/footer-new.php') ?>
+            <?php echo $this->render('@app/views/partials/home/footer-new.php') ?>
 
 
             <script src="js/jquery/jquery.js"></script>

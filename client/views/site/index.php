@@ -9,23 +9,23 @@ $this->title = 'e-Visa | Bangladesh';
 <div class="clearfix"></div>
 
 
-<?php echo $this->render('@app/views/partials/home-slider.php') ?>
+<?php echo $this->render('@app/views/partials/home/home-slider.php') ?>
 
 <div class="clearfix"></div>
 
-<?php echo $this->render('@app/views/partials/evisa-form.php') ?>
+<?php echo $this->render('@app/views/partials/home/evisa-form.php') ?>
 
 <div class="clearfix"></div>
 
-<?php echo $this->render('@app/views/partials/map-description.php') ?>
+<?php echo $this->render('@app/views/partials/home/map-description.php') ?>
 
 <div class="clearfix"></div>
 
-<?php echo $this->render('@app/views/partials/map.php') ?>
+<?php echo $this->render('@app/views/partials/home/map.php') ?>
 
 <div class=" clearfix"></div>
 
-<?php echo $this->render('@app/views/partials/image-carousel.php') ?>
+<?php echo $this->render('@app/views/partials/home/image-carousel.php') ?>
 
 <div class="clearfix"></div>
 
