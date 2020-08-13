@@ -8,7 +8,7 @@
 
 ?>
 
-<div class="pb-5" data-wizard-type="step-content" data-wizard-state="current">
+<div class="pb-5" data-wizard-type="step-content" >
     <h4 class="mb-10 font-weight-bold text-dark">Applicant Information: </h4>
 
     <div class="row">

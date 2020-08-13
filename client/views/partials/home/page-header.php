@@ -23,7 +23,7 @@ use yii\helpers\Url;
                       <li> <a href="#">About</a> </li>
                       <li class="mega-menu  >" > <a href="#">Contact</a> </li>
                         <?php if(Yii::$app->user->isGuest) { ?>
-                        <li class="mega-menu  >" > <a href="site/registration">Registration</a> </li>
+<!--                        <li class="mega-menu  >" > <a href="site/registration">Registration</a> </li>-->
                         <li class="mega-menu  >" > <a href="site/login">Login</a> </li>
                         <?php }else {  ?>
                             <li class="m-nav__item">

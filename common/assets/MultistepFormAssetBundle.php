@@ -22,7 +22,7 @@ class MultistepFormAssetBundle extends AssetBundle
         //   Multi Step Form Style
 
         'js/dashboard/theme/wizard-2.min.js',
-        'js/dashboard/theme/bootstrap-datepicker.min.js',
+//        'js/dashboard/theme/bootstrap-datepicker.min.js',
 //        'js/dashboard/plugins/custom/uppy/uppy.bundle.js',
 //        'js/dashboard/plugins/custom/uppy.js'
 

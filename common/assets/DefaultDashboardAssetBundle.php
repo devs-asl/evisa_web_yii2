@@ -19,7 +19,7 @@ class DefaultDashboardAssetBundle extends AssetBundle
         //        GLOBAL style
 
         'css/dashboard/theme/style.bundle.css',
-        'css/dashboard/plugins/custom/fullcalendar.bundle.css',
+//        'css/dashboard/plugins/custom/fullcalendar.bundle.css',
 
     ];
 
@@ -28,8 +28,8 @@ class DefaultDashboardAssetBundle extends AssetBundle
         'js/dashboard/theme/plugins.bundle.js',
         'js/dashboard/plugins/custom/prismjs/prismjs.bundle.js',
         'js/dashboard/theme/scripts.bundle.js',
-        'js/dashboard/plugins/widgets/widgets.min.js',
-        'js/dashboard/plugins/custom/fullcalendar.bundle.js',
+//        'js/dashboard/plugins/widgets/widgets.min.js',
+//        'js/dashboard/plugins/custom/fullcalendar.bundle.js',
     ];
 
 }

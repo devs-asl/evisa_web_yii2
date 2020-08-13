@@ -8,7 +8,7 @@
         <!--begin::Logo-->
         <div class="btn p-0 symbol symbol-40 symbol-success" href="/metronic/preview/demo10/index.html" id="kt_quick_user_toggle">
             <div class="symbol-label ">
-                <img alt="Logo" src="/metronic/themes/metronic/theme/html/demo10/dist/assets/media/svg/avatars/007-boy-2.svg" class="h-75 align-self-end" />
+                <img alt="Logo" src="https://preview.keenthemes.com/metronic/theme/html/demo10/dist/assets/media/svg/avatars/007-boy-2.svg" class="h-75 align-self-end" />
             </div>
         </div>
         <!--end::Logo-->
@@ -144,7 +144,7 @@
         <!--begin::Languages-->
         <div class="dropdown" data-toggle="tooltip" data-placement="right" data-container="body" data-boundary="window" title="Languages">
             <a href="#" class="btn btn-icon btn-lg btn-borderless" data-toggle="dropdown" data-offset="0px,0px">
-                <img class="w-20px h-20px rounded" src="/metronic/themes/metronic/theme/html/demo10/dist/assets/media/svg/flags/226-united-states.svg" alt="image" />
+                <img class="w-20px h-20px rounded" src="https://preview.keenthemes.com/metronic/theme/html/demo10/dist/assets/media/svg/flags/226-united-states.svg" alt="image" />
             </a>
             <!--begin::Dropdown-->
             <div class="dropdown-menu p-0 m-0 dropdown-menu-anim-up dropdown-menu-sm dropdown-menu-left">
