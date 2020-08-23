@@ -1,0 +1,39 @@
+.m-login__logo img {
+    width: 150px!important;
+    max-width: none !important;
+}
+
+
+.fade:not(.show) {
+    opacity: 1!important;
+}
+
+.alert .close:before{
+    content: ''!important;
+}
+
+.alert .close{
+    padding-top: 0.15rem!important;
+}
+
+
+.help-block {
+    color: red!important;
+}
+
+
+/* Evisa Auth-main layout css */
+
+@media (min-width: 1024px){
+    .m-login.m-login--6 .m-login__wrapper {
+        padding: 17rem 10rem!important
+    }
+}
+
+
+
+/*@media (max-width: 1024px) {*/
+    /*.m-login.m-login--6 .m-login__wrapper {*/
+        /*padding: 3rem 2rem!important;*/
+    /*}*/
+/*}*/
