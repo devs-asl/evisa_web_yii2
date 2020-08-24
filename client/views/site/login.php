@@ -36,7 +36,7 @@ $this->title = 'e-Visa | Bangladesh | Login';
                 <div class="pb-5 pb-lg-15">
                     <h3 class="font-weight-bolder text-dark font-size-h2 font-size-h1-lg">Sign In</h3>
                     <div class="text-muted font-weight-bold font-size-h4">New Here?
-                        <a href="/metronic/demo10/custom/pages/login/login-4/signup.html" class="text-primary font-weight-bolder">Create Account</a></div>
+                        <a href="#" class="text-primary font-weight-bolder">Create Account</a></div>
                 </div>
                 <!--begin::Title-->
                 <?= $form->field($login, 'email')->textInput(['autofocus' => true,'value' => 'denver@as.cas', 'class' => 'form-control form-control-solid h-auto py-7 px-6 rounded-lg border-0'])->label('Your Email',['class' => 'font-size-h6 font-weight-bolder text-dark']) ?>
