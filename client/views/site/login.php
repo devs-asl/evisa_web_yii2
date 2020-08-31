@@ -10,7 +10,7 @@ use common\helpers\UrlHelpers;
 use common\widgets\Alert;
 use yii\helpers\Url;
 
-$this->title = 'e-Visa | Bangladesh | Login';
+$this->title = 'E-Visa | Bangladesh | Login';
 
 ?>
 <!-- start new -->
