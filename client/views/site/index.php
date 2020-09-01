@@ -3,7 +3,7 @@
 /* @var $this yii\web\View */
 
 
-$this->title = 'e-Visa Test | Bangladesh';
+$this->title = 'e-Visa | Bangladesh';
 ?>
 
 <div class="clearfix"></div>
