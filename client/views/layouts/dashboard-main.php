@@ -120,7 +120,7 @@ use yii\helpers\Html;
 
                                     <li class="menu-item  menu-item-submenu">
 
-                                        <?=    Html::a('Logout', ['site/logout'], ['data-method' => 'post', 'class' => 'menu-link menu-text']) ?>
+                                        <?=    Html::a("<span class='menu-text'>Logout</span>", ['site/logout'], ['data-method' => 'post', 'class' => 'menu-link']) ?>
 
                                     </li>
 
