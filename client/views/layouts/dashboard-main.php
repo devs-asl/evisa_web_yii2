@@ -114,22 +114,23 @@ use yii\helpers\Html;
                                     <li class="menu-item  menu-item-submenu">
                                         <a  href="<?= \common\helpers\UrlHelpers::url('/site/application') ?>" class="menu-link "><span class="menu-text">Application</span><span class="menu-desc"></span><i class="menu-arrow"></i></a></li>
 
-
-
 <!--                                    <li class="menu-item  menu-item-submenu">-->
 <!--                                        <a  href="--><?//= \common\helpers\UrlHelpers::url('/') ?><!--" class="menu-link "><span class="menu-text">Home</span><span class="menu-desc"></span><i class="menu-arrow"></i></a></li>-->
 
 
-
-
                                     <li class="menu-item  menu-item-submenu">
-<!--                                        <a href="/evisa_web_yii2/client/web/site/logout" class="menu-link" data-method="post">-->
+
+                                        <?=    Html::a('Logout', ['site/logout'], ['data-method' => 'post', 'class' => 'menu-link menu-text']) ?>
+
+                                    </li>
+
+<!--                                    <li class="menu-item  menu-item-submenu">-->
+<!---->
+<!--                                        <a href="/client/web/site/logout" class="menu-link" data-method="post">-->
 <!--                                            <span class = "menu-text">Logout</span>-->
 <!--                                        </a>-->
-                                        <a href="dev.evisa.co.bd/client/web/site/logout" class="menu-link" data-method="post">
-                                            <span class = "menu-text">Logout</span>
-                                        </a>
-                                    </li>
+<!---->
+<!--                                    </li>-->
 
 
 
