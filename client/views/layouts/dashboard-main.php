@@ -123,7 +123,10 @@ use yii\helpers\Html;
 
 
                                     <li class="menu-item  menu-item-submenu">
-                                        <a href="/evisa_web_yii2/client/web/site/logout" class="menu-link" data-method="post">
+<!--                                        <a href="/evisa_web_yii2/client/web/site/logout" class="menu-link" data-method="post">-->
+<!--                                            <span class = "menu-text">Logout</span>-->
+<!--                                        </a>-->
+                                        <a href="/client/web/site/logout" class="menu-link" data-method="post">
                                             <span class = "menu-text">Logout</span>
                                         </a>
                                     </li>
