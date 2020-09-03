@@ -11,8 +11,10 @@
         <input class="radio" id="one" name="group" type="radio" checked>
         <input class="radio" id="two" name="group" type="radio">
         <div class="tabs">
-            <label class="tab" id="one-tab" for="one">Apply for evisa DEV TEST 2</label>
-            <label class="tab" id="two-tab" for="two">Application Staus DEV TEST 3</label>
+
+            <label class="tab" id="one-tab" for="one">Apply for evisa</label>
+            <label class="tab" id="two-tab" for="two">Application Staus</label>
+
         </div>
         <div class="panels">
             <div class="panel" id="one-panel">
