@@ -6,7 +6,7 @@ return [
 //            'dsn' => 'mysql:host=192.168.30.16;dbname=evisa_dev',
 //            'username' => 'pranta',
 //            'password' => 'root',
-            'dsn' =>'mysql:host=devs-db.cl0j9h0z9kwc.ap-southeast-1.rds.amazonaws.com;dbname=dev_evisa',
+            'dsn' =>'mysql:host=devs-db.cl0j9h0z9kwc.ap-southeast-1.rds.amazonaws.com;dbname=evisa',
             'username' => 'devs',
             'password' => 'devsdb&2019',
             'charset' => 'utf8',
